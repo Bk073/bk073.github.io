@@ -17,13 +17,7 @@ Graduate Research Assisstant, <br>
 [Rochester Institute of Technology](https://www.rit.edu), New York
  -->
 
-I am a 3rd year Computer Science Ph.D. student at Rochester Institute of
-Technology (RIT), conducting research under [Prof. Richard Zanibbi](https://www.cs.rit.edu/~rlaz/)
-at the [Document and Pattern Recognition Lab (DPRL), RIT](https://www.cs.rit.edu/~dprl/index.html).
-Currently, I am involved in the [MathSeer project](https://www.cs.rit.edu/~dprl/mathseer/),
-which is a system to make finding mathematical information easier by creating innovative search
-engines, interfaces, and algorithms for extracting and recognizing visual
-structure like mathematical formulas and chemical diagrams in documents.
+I am currently pursuing my masters degree in Computer Science at University of Nebraska Omaha.
 
 **Research Interests**: Pattern recognition, computer vision, detection and recognition of graphical structures, deep
 learning, natural language processing

@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Ayush Kumar Shah"
+title                    : "Bishwa Karki"
 title_separator          : "-"
-name                     : &name "Ayush Kumar Shah"
+name                     : &name "Bishwa Karki"
 description              : &description "My personal website to share my academic profile and research contributions. I also share my ideas and a reflection of intereseting topics I learn mostly in the field of Artificial Intelligence and Python."
 # url                      : https://ayushkumarshah.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 url                      : https://shahayush.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -24,7 +24,7 @@ talkmap_link             : false #change to true to add link to talkmap on talks
 comments:
   provider               : "disqus"
   disqus:
-    shortname            : ayushkumarshah
+    shortname            : bishwakarki
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -71,7 +71,7 @@ toc: true
 
 # Social Sharing
 twitter:
-  username               : &twitter ayushkumarshah7
+  username               : &twitter karkeebishwa1
 facebook:
   username               :
   app_id                 :
@@ -80,15 +80,15 @@ og_image                 :  # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  name: Ayush Kumar Shah  # it will shows as the copyright owner in Footer
-  email: ayush.kumar.shah@gmail.com             # change to your email address
+  name: Bishwa Karki  # it will shows as the copyright owner in Footer
+  email: karkeebishwa@gmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/ayushkumarshah7      # change to your twitter homepage
-    - https://github.com/ayushkumarshah       # change to your github homepage
+    - https://twitter.com/karkeebishwa7      # change to your twitter homepage
+    - https://github.com/bk073       # change to your github homepage
     # Uncomment below to add more social links
-    - https://www.facebook.com/ayushkumarshah
-    - https://www.linkedin.com/in/ayush7
+    - https://www.facebook.com/karkeebishwa
+    - https://www.linkedin.com/in//bishwakarki
 
 
 # Analytics
@@ -100,14 +100,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Ayush Kumar Shah"
+  name             : "Bishwa Karki"
   avatar           : "profile.jpeg"
-  bio              : "Computer Science Ph.D. Student"
-  location         : "Rochester, New York"
+  bio              : "Computer Science Masters Student"
+  location         : "Omaha, Nebraska"
   employer         :
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?hl=en&authuser=1&user=SD3Nv10AAAAJ"
-  email            : "ayush.kumar.shah@gmail.com"
+  email            : "karkeebishwa@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -116,20 +116,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "ayushkumarshah"
+  github           : "bk073"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "ayush7"
+  linkedin         : "bishwakarki"
   orcid            : "http://orcid.org/0000-0001-6158-7632"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "ayushkumarshah7"
+  twitter          : "karkeebishwa1"
   vine             :
   weibo            :
   xing             :
