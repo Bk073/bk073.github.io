@@ -11,10 +11,9 @@ title                    : "Bishwa Karki"
 title_separator          : "-"
 name                     : &name "Bishwa Karki"
 description              : &description "My personal website to share my academic profile and research contributions. I also share my ideas and a reflection of intereseting topics I learn mostly in the field of Artificial Intelligence and Python."
-# url                      : https://ayushkumarshah.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-url                      : https://shahayush.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://bk073.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "ayushkumarshah/ayushkumarshah.github.io"
+repository               : "bk073/bk073.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -106,7 +105,7 @@ author:
   location         : "Omaha, Nebraska"
   employer         :
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "https://scholar.google.com/citations?hl=en&authuser=1&user=SD3Nv10AAAAJ"
+  # googlescholar    : "https://scholar.google.com/citations?hl=en&authuser=1&user=SD3Nv10AAAAJ"
   email            : "karkeebishwa@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
