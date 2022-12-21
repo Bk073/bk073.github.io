@@ -40,7 +40,7 @@ Get a PDF copy of my CV [here](/files/Bishwa_Karki_CV.pdf)
 
 ---
 
-### PhD, Computing and Information Sciences
+### Masters, Computing and Information Sciences
 
 2022-Present
 
