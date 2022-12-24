@@ -16,7 +16,7 @@ The main motivation for purposing Batch Normalization was to ease the training o
 
 Before going onto the Batch Normalization, lets see some properties of some activation function. 
 
-### 1. Tanh
+### Tanh
 
 Here I will not be listing formula and graph of Tanh, as I guess most of us are familiar. 
 
@@ -36,3 +36,31 @@ plt.hist(non_linearity.view(-1).tolist(), 50);
 This is a simple prototype of neural network with Tanh activation, and plot of the results after applying Tanh is depicted below:
 
 <img src="/assets/img/blogs/tanh_distribution.png" width="100%" />
+
+So we can see from the above histogram that Tanh takes most of the value to -1 and 1. And this is because of the reason that the input to the Tanh has a broad distribution and Tanh squash the exterme values to -1 and 1. Lets see the distribution of input to the Tanh:
+```python
+plt.hist(net.view(-1).tolist(), 50);
+```
+
+<img src="/assets/img/blogs/pre-active.png" width="100%" />
+
+Now during back-propagation this nature of activation function will cause the problem. Lets see the gradient function of Tanh function used during back-propagation:
+
+```python
+grad_for_tan_h = += (1 - tanh**2) * previous_layer_grad
+```
+
+I wrote here **previous_layer_grad** because it's not important to show what I actually want. Here,
+
+```python
+if:
+tanh = -1 or 1 
+than grad_for_tan_h = 0
+```
+
+Now when we provide more and more samples to the network in the hope of getting our weights and bias better and better during training, but this doesn't happen because of the gradient of tanh being zero will destroy all the gardient of the network and make them inactivate.
+
+Similar is the case with other activation function like **Sigmoid and ReLU** but this is not the case with **Leaky ReLU, Maxout and ELU**.
+
+### Batch Normalization:
+
