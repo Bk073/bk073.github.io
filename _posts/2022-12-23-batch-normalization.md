@@ -64,3 +64,25 @@ Similar is the case with other activation function like **Sigmoid and ReLU** but
 
 ### Batch Normalization:
 
+We saw the problem with the non-linearity and also got the idea that we have to be careful with the weight initialization as well. Now, if we expand this simple idea to bigger neural network then things get complicated and these problems get stacked and lets see how we can solve this problem using Batch Normalization.
+
+```python
+x = torch.randn(500, 10)
+w = torch.rand(10, 200)
+
+y = x @ w
+
+print(x.mean(), x.std())
+print(y.mean(), y.std())
+
+plt.figure(figsize=(10,5))
+plt.subplot(121)
+plt.hist(x.view(-1).tolist(), 50, density=True);
+plt.subplot(122)
+plt.hist(y.view(-1).tolist(), 50, density=True);
+```
+
+<img src="/assets/img/blogs/input_output_distribution.png" width="100%" />
+
+We can see here the mean is similar to the input but the variance or standard deviation has increased which when passed to non-linearity function causes the problem. So, Batch Normalization helps to keep the distribution of these value similar by nomalizing these values by standard deviation which in turn helps training and convergence of neural network. 
+
