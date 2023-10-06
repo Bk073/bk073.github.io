@@ -14,4 +14,4 @@ language processing, visual scene parsing.
 
 **Current work:**
 
-- Working on improving deep learning based image watermarkin
+- Working on improving deep learning based image watermarking
