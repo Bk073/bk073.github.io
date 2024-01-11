@@ -16,4 +16,12 @@ The vanilla autoencoder models each data were mapped to one point in the latent 
 To follow this probabilistic approach there are few changes made to the encoder and the loss function. And the decoder is kept similar to the vanilla autoencoder models. Here we will discuss from the probabilistic approaches.
 
 
-
+## The Encoder
+graph TD
+    A[Enter Chart Definition] --> B(Preview)
+    B --> C{decide}
+    C --> D[Keep]
+    C --> E[Edit Definition]
+    E --> B
+    D --> F[Save Image and Code]
+    F --> B
