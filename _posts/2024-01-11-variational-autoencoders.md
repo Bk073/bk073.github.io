@@ -19,4 +19,11 @@ To follow this probabilistic approach there are few changes made to the encoder 
 ## The Encoder
 The encoder parameterizes the approximate posterior q(z|x). It takes the input x and output the distribution over z, i.e produces mean $\mu$ and standard deviation $\sigma$.
 
-\[ q(z \mid x) = \mathcal{N}(z \mid \mu(x), \sigma^2(x)) \] 
+ q(z $\mid$ x) = $\mathcal${N}(z $\mid$ $\mu(x)$, $\sigma^2(x)$)
+
+
+## The Decoder
+The decoder is similar to the vanilla autoencoder where it generates samples from the latent variable z.
+ p(x $\mid$ z) = Decoder(z)
+
+
