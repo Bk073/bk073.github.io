@@ -17,11 +17,4 @@ To follow this probabilistic approach there are few changes made to the encoder 
 
 
 ## The Encoder
-graph TD
-    A[Enter Chart Definition] --> B(Preview)
-    B --> C{decide}
-    C --> D[Keep]
-    C --> E[Edit Definition]
-    E --> B
-    D --> F[Save Image and Code]
-    F --> B
+The encoder parameterizes the approximate posterior q(z|x). It takes the input x and output the distribution over z, i.e produces mean $\mu$ and standard deviation $\sigma$
